@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Metasho | Cultural, Artistic & Media Studio',
-  description: 'A modern multilingual Next.js website for Metasho.',
+  title: 'Metasho | Multilingual Cultural Studio',
+  description: 'A modern multilingual Next.js website for Metasho with stronger language separation and premium UI.',
 };
 
 export default function RootLayout({ children }) {
