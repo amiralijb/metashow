@@ -2,19 +2,19 @@ import '@fontsource-variable/vazirmatn/wght.css';
 import './globals.css';
 
 export const metadata = {
-  title: 'استودیو ساخت فیلم و ویدیو تبلیغاتی',
-  description: 'طراحی مینیمال برای معرفی خدمات ساخت فیلم و ویدیو تبلیغاتی از صفر تا صد.',
+  title: 'Metasho | Advertising Film & Video Studio',
+  description: 'A minimal, premium website for Metasho focused on advertising film and video production from idea to delivery.',
 };
 
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#f7f3eb',
+  themeColor: '#050816',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa" dir="rtl" suppressHydrationWarning>
+    <html lang="fa" suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );
